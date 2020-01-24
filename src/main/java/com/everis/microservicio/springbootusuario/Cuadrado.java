@@ -13,13 +13,19 @@ import javax.persistence.Table;
 @Table(name = "cuadrados")
 public class Cuadrado implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
 	
 	@Column
-	private int lado;
+	private double lado;
 
 
 	public Long getId() {
@@ -32,12 +38,12 @@ public class Cuadrado implements Serializable {
 	}
 
 
-	public int getLado() {
+	public double getLado() {
 		return lado;
 	}
 
 
-	public void setLado(int lado) {
+	public void setLado(double lado) {
 		this.lado = lado;
 	}
 

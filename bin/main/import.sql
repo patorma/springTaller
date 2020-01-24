@@ -6,3 +6,7 @@ insert into usuarios (username,nombre,apellido,fecha_nacimiento,correo,port) val
 insert into usuarios (username,nombre,apellido,fecha_nacimiento,correo,port) values ('titanium','Diego','torres','2004-05-06','titanium@gmail.com',0);
 insert into usuarios (username,nombre,apellido,fecha_nacimiento,correo,port) values ('loboferoz','pablo','contreras','1981-05-06','loboferoz@gmail.com',0);
 insert into usuarios (username,nombre,apellido,fecha_nacimiento,correo,port) values ('Terminator','Claudio','Ortiz','2004-05-06','terminator@gmail.com',0);
+
+insert into circulos (radio,pi) values (5,3.1416);
+insert into cuadrados (lado) values (4);
+insert into triangulos (base,altura) values (4,7);

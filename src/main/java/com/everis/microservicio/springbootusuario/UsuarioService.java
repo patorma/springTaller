@@ -20,5 +20,42 @@ public class UsuarioService {
 			System.out.println(mensaje);
 		}
 	}
+	
+	public double calcularAreaCuadrado1(double d) {
+		
+		double lado = d;
+		
+		double area = lado*lado;
+		
+		System.out.println("El area del cuadrado es: ");
+		 return area;
+		 
+		
+	}
+	
+	public double calcularAreaCirculo(double r, double pi) {
+		
+		
+		
+		double area = r*pi;
+		System.out.println("El area del circulo  es: ");
+		
+		 return area;
+		 
+		
+	}
 
+	public double calcularAreaTriangulo(double base, double altura) {
+		
+		
+		
+		double area = base*altura/2;
+		
+		System.out.println("El area del triangulo es: ");
+		
+		 return area;
+		 
+		
+	}
+	
 }

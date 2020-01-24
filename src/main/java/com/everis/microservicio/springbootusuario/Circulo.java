@@ -18,10 +18,10 @@ public class Circulo implements Serializable {
 	private Long id;
 	
 	@Column
-	private int radio;
+	private double radio;
 	
 	@Column(name = "pi")
-	private static final double PI=3.1416;
+	private  double PI;
 	
 	
 	
@@ -46,7 +46,7 @@ public class Circulo implements Serializable {
 
 
 
-	public int getRadio() {
+	public double getRadio() {
 		return radio;
 	}
 
@@ -55,7 +55,7 @@ public class Circulo implements Serializable {
 
 
 
-	public void setRadio(int radio) {
+	public void setRadio(double radio) {
 		this.radio = radio;
 	}
 
@@ -64,7 +64,7 @@ public class Circulo implements Serializable {
 
 
 
-	public static double getPi() {
+	public  double getPi() {
 		return PI;
 	}
 

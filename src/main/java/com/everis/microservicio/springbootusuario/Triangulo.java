@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "triantgulos")
+@Table(name = "triangulos")
 public class Triangulo implements Serializable {
 	
 	@Id
@@ -18,10 +18,10 @@ public class Triangulo implements Serializable {
 	private Long id;
 	
 	@Column
-	private int base;
+	private double base;
 	
 	@Column
-	private int altura;
+	private double altura;
 
 	
 	public Long getId() {
@@ -34,22 +34,22 @@ public class Triangulo implements Serializable {
 	}
 
 
-	public int getBase() {
+	public double getBase() {
 		return base;
 	}
 
 
-	public void setBase(int base) {
+	public void setBase(double base) {
 		this.base = base;
 	}
 
 
-	public int getAltura() {
+	public double getAltura() {
 		return altura;
 	}
 
 
-	public void setAltura(int altura) {
+	public void setAltura(double altura) {
 		this.altura = altura;
 	}
 
